@@ -1,0 +1,28 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RuckIt.RecordRuckForm">
+
+    <StackLayout Padding="20">
+        <!-- Start Time -->
+        <Label Text="Start Time" Style="{StaticResource LabelStyle}"/>
+        <Entry Placeholder="Enter start time" Keyboard="Default" Style="{StaticResource EntryStyle}" />
+
+        <!-- End Time -->
+        <Label Text="End Time" Style="{StaticResource LabelStyle}"/>
+        <Entry Placeholder="Enter end time" Keyboard="Default" Style="{StaticResource EntryStyle}" />
+
+        <!-- Distance in Miles -->
+        <Label Text="Distance in Miles" Style="{StaticResource LabelStyle}"/>
+        <Entry Placeholder="Enter distance in miles" Keyboard="Numeric" Style="{StaticResource EntryStyle}" />
+
+        <!-- Calories Burned -->
+        <Label Text="Calories Burned" Style="{StaticResource LabelStyle}"/>
+        <Entry Placeholder="Enter calories burned" Keyboard="Numeric" Style="{StaticResource EntryStyle}" />
+
+        <!-- Weight Carried -->
+        <Label Text="Weight Carried (lbs)" Style="{StaticResource LabelStyle}"/>
+        <Entry Placeholder="Enter weight carried" Keyboard="Numeric" Style="{StaticResource EntryStyle}" />
+
+        <Button Text="Save"/>
+    </StackLayout>
+</ContentPage>
